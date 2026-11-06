@@ -1,2 +1,9 @@
-# procurement-workbench-demo
-Free interactive procurement workbench demo. Fictitious examples; browser-local storage only.
+# 采办 · 采购工作台在线试用
+
+免费交互演示，展示采购案件、每日跟进、中英文草稿、附件、Excel/CSV导入及周报。
+
+本仓库只包含构建后的网页和虚构示例，不含正式后端、公司手册、账号密码或真实采购资料。
+
+试用数据仅保存在当前浏览器，不跨设备或同事同步。采购手册由访客在浏览器自行选择XLSX读取，文件不上传；账号/密码工作表及图片不纳入本地文本库。
+
+GitHub Pages 发布来源：main 分支 /（root）。这是项目演示，正式部门共享部署另行配置。
