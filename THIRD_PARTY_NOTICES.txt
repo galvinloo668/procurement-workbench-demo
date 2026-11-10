@@ -1,5 +1,8 @@
 Third-party software distributed with this procurement workbench.
 
+Screenshot OCR also uses PaddleOCR, ONNX Runtime Web and OpenCV.js.
+Their attribution and license terms follow the existing notices below.
+
 Screenshot and scanned PDF OCR uses Tesseract.js, Tesseract.js-core and
 Tesseract English and Traditional Chinese trained data, under the Apache
 License, Version 2.0 reproduced below.
@@ -925,3 +928,188 @@ copy of the Program in return for a fee.
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
+
+===== PaddleOCR browser screenshot recognition =====
+@paddleocr/paddleocr-js 0.4.2
+Copyright (c) 2016 PaddlePaddle Authors. All Rights Reserved.
+Licensed under the Apache License, Version 2.0, reproduced in this file.
+Source: https://github.com/PaddlePaddle/PaddleOCR/tree/main/paddleocr-js
+Upstream license: https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE
+
+The distributed PP-OCRv6_small_det and PP-OCRv6_small_rec ONNX model
+archives are from the official PaddleOCR/PaddleX distribution.
+Projects: https://github.com/PaddlePaddle/PaddleOCR
+          https://github.com/PaddlePaddle/PaddleX
+License: Apache-2.0 (the Apache License, Version 2.0 reproduced in this file).
+Archive source: https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/
+The archives are distributed without modification; application preparation
+verifies the SHA-256 digests before copying them into the built site.
+
+===== OpenCV.js / @techstark/opencv-js 4.10.0-release.1 =====
+JavaScript packaging and TypeScript definitions: TechStark / Wilson.
+Source: https://github.com/TechStark/opencv-js
+Package license: node_modules/@techstark/opencv-js/LICENSE (Apache-2.0).
+OpenCV source: https://github.com/opencv/opencv/tree/4.10.0
+License: https://github.com/opencv/opencv/blob/4.10.0/LICENSE
+Copyright notices: https://github.com/opencv/opencv/blob/4.10.0/COPYRIGHT
+
+Copyright (C) 2000-2022, Intel Corporation, all rights reserved.
+Copyright (C) 2009-2011, Willow Garage Inc., all rights reserved.
+Copyright (C) 2009-2016, NVIDIA Corporation, all rights reserved.
+Copyright (C) 2010-2013, Advanced Micro Devices, Inc., all rights reserved.
+Copyright (C) 2015-2023, OpenCV Foundation, all rights reserved.
+Copyright (C) 2008-2016, Itseez Inc., all rights reserved.
+Copyright (C) 2019-2023, Xperience AI, all rights reserved.
+Copyright (C) 2019-2022, Shenzhen Institute of Artificial Intelligence and Robotics for Society, all rights reserved.
+Copyright (C) 2022-2023, Southern University of Science And Technology, all rights reserved.
+Third party copyrights are property of their respective owners.
+
+Licensed under the Apache License, Version 2.0 reproduced in this file.
+
+===== ONNX Runtime Web / ONNX Runtime Common 1.24.3 =====
+Includes the distributed JSEP WebAssembly runtime and JavaScript loader.
+Source: https://github.com/microsoft/onnxruntime/tree/v1.24.3
+License: https://github.com/microsoft/onnxruntime/blob/v1.24.3/LICENSE
+
+MIT License
+
+Copyright (c) Microsoft Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===== js-yaml 4.3.2 =====
+Source: https://github.com/nodeca/js-yaml
+License reproduced from node_modules/js-yaml/LICENSE:
+(The MIT License)
+
+Copyright (C) 2011-2015 by Vitaly Puzrin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+===== Clipper / clipper-lib 6.4.2 =====
+Source: https://github.com/junmer/clipper-lib
+Original Clipper: Angus Johnson, version 6.4.2, 27 February 2017.
+Copyright: Angus Johnson 2010-2017.
+JavaScript translation: Timo, version 6.4.2.2, 8 September 2017.
+The C# Int128 structure is implemented using Tom Wu's JSBN (license below).
+
+Attributions retained from clipper.js:
+The code in this library is an extension of Bala Vatti's clipping algorithm:
+"A generic solution to polygon clipping"
+Communications of the ACM, Vol 35, Issue 7 (July 1992), pp 56-63.
+http://portal.acm.org/citation.cfm?id=129906
+
+Computer graphics and geometric modeling: implementation and algorithms
+By Max K. Agoston
+Springer; 1 edition (January 4, 2005)
+http://books.google.com/books?q=vatti+clipping+agoston
+
+See also "Polygon Offsetting by Computing Winding Numbers"
+Paper no. DETC2005-85513, pp. 565-575
+ASME 2005 International Design Engineering Technical Conferences
+and Computers and Information in Engineering Conference (IDETC/CIE2005)
+September 24-28, 2005, Long Beach, California, USA.
+http://www.me.berkeley.edu/~mcmains/pubs/DAC05OffsetPolygon.pdf
+
+License source: https://www.boost.org/LICENSE_1_0.txt
+
+Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the "Software") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+===== JSBN (embedded in clipper-lib) =====
+Basic JavaScript BN library - subset useful for RSA encryption.
+The embedded source carries Copyright (c) 2005 Tom Wu. All Rights Reserved.
+Original source and license: http://www-cs-students.stanford.edu/~tjw/jsbn/
+License copy: https://github.com/andyperlitch/jsbn/blob/master/LICENSE
+
+Licensing
+---------
+
+This software is covered under the following copyright:
+/*
+ * Copyright (c) 2003-2005  Tom Wu
+ * All Rights Reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY
+ * WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * IN NO EVENT SHALL TOM WU BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
+ * INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER
+ * RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER OR NOT ADVISED OF
+ * THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF LIABILITY, ARISING OUT
+ * OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ *
+ * In addition, the following condition applies:
+ *
+ * All redistributions must retain an intact copy of this copyright notice
+ * and disclaimer.
+ */
+Address all questions regarding this license to:
+
+  Tom Wu
+  tjw@cs.Stanford.EDU
