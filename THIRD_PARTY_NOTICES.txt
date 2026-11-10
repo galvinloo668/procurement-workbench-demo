@@ -1,5 +1,12 @@
 Third-party software distributed with this procurement workbench.
 
+Screenshot and scanned PDF OCR uses Tesseract.js, Tesseract.js-core and
+Tesseract English and Traditional Chinese trained data, under the Apache
+License, Version 2.0 reproduced below.
+https://github.com/naptha/tesseract.js
+https://github.com/naptha/tesseract.js-core
+https://github.com/tesseract-ocr/tessdata_best
+
 ===== react/LICENSE =====
 MIT License
 
